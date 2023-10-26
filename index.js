@@ -32,6 +32,8 @@ function clue3()
         document.getElementById('clue-title').innerHTML="The Final clue is"
         document.getElementById('clue3').innerHTML="The next clue that the detective found was a hidden recording of a heated argument with David. While searching Linda's residence, Detective Sarah O'Connor stumbled upon an audio recording device. When she listened to the recordings, she heard a heated argument between Linda and David, during which David could be heard threatening Linda if she were to reveal certain information. This recording raises suspicions about Linda's motives and the possibility of self-defense."
         document.querySelector('.hidden').classList.add('show')
+        document.querySelector('#info').classList.add('show')
+        document.querySelector('#bonus-clue').classList.add('show')
         document.querySelector('#form').classList.add('show')
     }
     else
